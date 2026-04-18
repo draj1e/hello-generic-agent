@@ -5,7 +5,7 @@ import { defineConfig } from 'vitepress'
 // 如果环境变量 EDGEONE 等于 '1'，说明在 EdgeOne 环境，使用根路径 '/'
 // 否则默认是 GitHub Pages 环境，使用仓库子路径 '/easy-vecdb/'
 const isEdgeOne = process.env.EDGEONE === '1'
-const baseConfig = isEdgeOne ? '/' : '/repo-template/'
+const baseConfig = isEdgeOne ? '/' : '/hello-generic-agent/'
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -19,7 +19,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/datawhale-logo.png',
     nav: [
-      { text: 'PDF版本下载', link: 'https://github.com/datawhalechina/repo-template/releases' },
+      { text: 'PDF版本下载', link: 'https://github.com/AspasZhang/hello-generic-agent/releases' },
     ],
     search: {
       provider: 'local',
@@ -44,21 +44,14 @@ export default defineConfig({
       {
         text: 'Part 1：应用篇',
         items: [
-          { text: '第1章：第1章的标题', link: '/part1/chapter1/' },
-          { text: '第2章：第2章的标题', 
+          { text: '第1章：安装与环境配置', link: '/part1/chapter1/' },
+          { text: '第6章：进阶玩法',
             items: [
-              { text: '第2.1节：第2.1节的标题', link: '/part1/chapter2/chapter2_1' },
-              { text: '第2.2节：第2.2节的标题', link: '/part1/chapter2/chapter2_2' }
-            ]
-           },
-          { text: '第7章：进阶玩法',
-            items: [
-              { text: '7.1 自主行动模式', link: '/part1/chapter7/advanced-usage#_7-1-自主行动模式-autonomous' },
-              { text: '7.2 定时任务', link: '/part1/chapter7/advanced-usage#_7-2-定时任务' },
-              { text: '7.3 反射模式', link: '/part1/chapter7/advanced-usage#_7-3-反射模式' },
-              { text: '7.4 子代理', link: '/part1/chapter7/advanced-usage#_7-4-子代理' },
-              { text: '7.5 Plan 模式', link: '/part1/chapter7/advanced-usage#_7-5-plan-模式' },
-              { text: '7.6 多模型切换', link: '/part1/chapter7/advanced-usage#_7-6-多模型切换' }
+              { text: '6.1 自主行动模式', link: '/part1/chapter6/advanced-usage#_6-1-自主行动模式-autonomous' },
+              { text: '6.2 定时任务', link: '/part1/chapter6/advanced-usage#_6-2-定时任务-scheduled-task' },
+              { text: '6.3 反射模式', link: '/part1/chapter6/advanced-usage#_6-3-反射模式-reflect' },
+              { text: '6.4 子代理模式', link: '/part1/chapter6/advanced-usage#_6-4-子代理模式-subagent' },
+              { text: '6.5 Plan 模式', link: '/part1/chapter6/advanced-usage#_6-5-plan-模式-复杂任务规划' }
             ]
           }
         ]
@@ -71,11 +64,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/datawhalechina/repo-template' }
+      { icon: 'github', link: 'https://github.com/AspasZhang/hello-generic-agent' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/datawhalechina/repo-template/blob/main/docs/:path'
+      pattern: 'https://github.com/AspasZhang/hello-generic-agent/blob/main/docs/:path'
     },
 
     footer: {
