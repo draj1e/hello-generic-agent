@@ -180,7 +180,7 @@ const chapters = [
   { name: '第3章：基础使用', tag: '应用篇', desc: '熟悉界面、解锁视觉能力，掌握多轮对话技巧', link: '/part1/chapter3/' },
   { name: '第4章：记忆与 Skill 系统', tag: '应用篇', desc: '教会 GA 一次，它就能永久记住并复用你的经验', link: '/part1/chapter4/' },
   { name: '第5章：聊天平台接入', tag: '应用篇', desc: '接入微信/飞书/钉钉，用手机随时给 GA 下任务', link: '/part1/chapter5/' },
-  { name: '第6章：进阶玩法', tag: '应用篇', desc: '自主行动、定时任务、子代理——解锁 GA 的全部潜力', link: '/part1/chapter6/' },
+  { name: '第6章：进阶功能', tag: '应用篇', desc: '自主行动、定时任务、子代理——解锁 GA 的全部潜力', link: '/part1/chapter6/' },
   { name: '第7章：上下文信息密度', tag: '原理篇', desc: '为什么上下文越长表现越差？理解 GA 的第一性原理', link: '/part2/chapter7/' },
   { name: '第8章：系统全貌', tag: '原理篇', desc: '鸟瞰 GenericAgent 全架构，建立你的系统地图', link: '/part2/chapter8/' },
   { name: '第9章：最小原子工具集', tag: '原理篇', desc: '只用 9 个工具覆盖完整能力环——不要瑞士军刀，要乐高积木', link: '/part2/chapter9/' },

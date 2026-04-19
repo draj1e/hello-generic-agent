@@ -49,7 +49,7 @@ export default defineConfig({
           { text: '第3章：基础使用', link: '/part1/chapter3/' },
           { text: '第4章：记忆与 Skill 系统', link: '/part1/chapter4/' },
           { text: '第5章：聊天平台接入', link: '/part1/chapter5/' },
-          { text: '第6章：进阶玩法', link: '/part1/chapter6/' }
+          { text: '第6章：进阶功能', link: '/part1/chapter6/' }
         ]
       },
       {
